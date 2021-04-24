@@ -1,29 +1,21 @@
-fx_version 'cerulean'
-games { 'gta5' };
+fx_version "adamant"
 
-name 'RageUI';
-description 'RageUI, and a project specially created to replace the NativeUILua-Reloaded library. This library allows to create menus similar to the one of Grand Theft Auto online.'
+games { "gta5" };
 
-client_scripts {
-    "RMenu.lua",
-    "menu/RageUI.lua",
-    "menu/Menu.lua",
-    "menu/MenuController.lua",
-
-    "components/*.lua",
-
-    "menu/elements/*.lua",
-
-    "menu/items/*.lua",
-
-    "menu/panels/*.lua",
-
-    "menu/windows/*.lua",
-
-}
+description "Redesigned of RageUI"
 
 client_scripts {
-     'example.lua',
+    "RageUI/RMenu.lua",
+    "RageUI/menu/RageUI.lua",
+    "RageUI/menu/Menu.lua",
+    "RageUI/menu/*.lua",
+    "RageUI/components/*.lua",
+    "RageUI/menu/elements/*.lua",
+    "RageUI/menu/items/*.lua",
+    "RageUI/menu/panels/*.lua",
+    "RageUI/menu/panels/*.lua",
+    "RageUI/menu/windows/*.lua",
 }
+
 
 
